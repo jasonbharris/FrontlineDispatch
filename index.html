@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontline Dispatch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- Info area -->
+     <section class="info">
+        <section class="trending">
+            <div class="trends">
+                <p class="text">Trending</p>
+            </div>
+            <div class="banner-small">
+                <p>Top 10 Best Movies of 2024 So Far: Great Movies To Watch Now.</p>
+            </div>
+            <button class="slide-left info-btn"><span>&langle;</span></button>
+            <button class="slide-right info-btn"><span>&rangle;</span></button>
+        </section>
+        <section class="date-links">
+            <div class="time">
+                <p class="timeText">Sunday, Jul 21, 2024</p>
+            </div>
+            <div class="separator">
+                <span>|</span>
+            </div>
+            <div class="social">
+                <span id="facebook"><i class="fa-brands fa-facebook-f"></i></span>
+                <span id="twitter"><i class="fa-brands fa-x-twitter"></i></span>
+                <span id="youtube"><i class="fa-brands fa-youtube"></i></span>
+                <span id="instagram"><i class="fa-brands fa-instagram"></i></span>
+            </div>
+        </section>
+     </section>
+
+     <!-- banner and link section -->
+
+     <section class="banner">
+        <div class="complete-logo">
+            <div class="logo-text">
+                <h3>F<span>D</span></h3>
+            </div>
+            <div class="logo">Frontline Dispatch</div>
+        </div>
+        <div class="web-banner">
+            <div class="banner-logo">
+                <div class="banner-logo-text">
+                    <h3>F<span>D</span></h3>
+                </div>
+                <div class="banner-full-logo">Frontline Dispatch</div>
+            </div>
+            <div class="banner-separator">
+                <span>|</span>
+            </div>
+            <div class="ad-text">
+                <p>Frontline Dispatch responsive newspaper and magazine ad space</p>
+            </div>
+            <div class="banner-separator">
+                <span>|</span>
+            </div>
+            <div class="ad-size">
+                <span class="text">AD</span>
+                <span class="size">
+                    670 x 85px Area!
+                </span>
+            </div>
+        </div>
+     </section>
+
+     <!-- main navigation -->
+
+     <nav class="main-navigation">
+        <ul class="nav-first-section-list">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Pages</a></li>
+            <li><a href="#">Post</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">World</a></li>
+            <li><a href="#">Sports</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <ul class="searchanduser">
+            <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+            <li><a href="#"><span><i class="fa-regular fa-user"></i></span></a></li>
+        </ul>
+        <div class="language">
+            <select name="lang" id="lang">
+                <option value="English">English</option>
+                <option value="Bangla">Bangla</option>
+                <option value="Hindi">Hindi</option>
+                <option value="French">French</option>
+                <option value="Italian">Italian</option>
+            </select>
+        </div>
+        <div class="weather">
+            <div class="weather_icon">
+                <i class="fa-solid fa-cloud-sun"></i>
+            </div>
+            <div class="tempandloc">
+                <div class="temp">
+                    <div class="temparea">
+                        <p>13</p>
+                        <span id="degree">0<span id='measurement'>C</span></span>
+                    </div>
+                    <div class="degreeandarea">
+                        <p>Houston, TX</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </nav>
+
+     <!-- video trends -->
+
+     <section class="videoandtrends">
+        <div class="videos"></div>
+        <div class="thetrends"></div>
+     </section>
+    
+    <script src="./news.js"></script>
+</body>
+</html>
